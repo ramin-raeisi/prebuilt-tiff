@@ -8,3 +8,6 @@ find_path( LIBTIFF_LIB_RELEASE libtiff.lib PATHS ${CMAKE_CURRENT_LIST_DIR}/libti
 set(Tiff_LIBRARIES debug ${LIBTIFF_LIB_DEBUG}/libtiff.lib optimized ${LIBTIFF_LIB_RELEASE}/libtiff.lib)
   
 include_directories( ${LIBTIFF_INCLUDE} )
+
+macro(AziTiff)
+endmacro(AziTiff)
